@@ -52,7 +52,7 @@ class App extends Component {
         })}
       )
     } else {
-      this.addLog(Log.error(`Too many hosts. Cannot add ${this.state.hosts.find(host => host.id === hostId).name} to ${formattedValue}`))
+      this.addLog(Log.error(`Too many hosts. Cannot add ${this.state.hosts.find(host => host.id === hostId).firstName} to ${formattedValue}`))
     }
   }
 
